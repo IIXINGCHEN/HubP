@@ -42,7 +42,7 @@ go build -o HubP main.go
 docker pull ymyuuu/hubp:latest
 
 # 运行容器
-docker run -d --name hubp -p 18184:18184 ymyuuu/hubp:latest
+docker run -d --name hubp -p 18184:18184 ixingchen/hubp:latest
 ```
 
 ## 配置说明
